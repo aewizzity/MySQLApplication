@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/add_new_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add New Task"
+            android:textColor="#2551ed"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextAddTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_new_task"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:hint="@string/new_text_hint"/>
+
+        <Button
+            android:id="@+id/btnAddNewTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextAddTask"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/add_new_text_title"/>
+    </RelativeLayout>
+
+</RelativeLayout>
